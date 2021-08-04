@@ -29,4 +29,4 @@ My challenge is build with vanilla css.
 
 ## Deploy
 
-- [Github pages](https://muhammadshajjar.github.io/single-price-grid-component-master/)
+- [Netlify](https://quizzical-lewin-381d7a.netlify.app/)
