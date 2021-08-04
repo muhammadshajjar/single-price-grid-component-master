@@ -127,6 +127,10 @@ Subscription section
     box-shadow: 0px 8px 20px 4px hsl(180deg 20% 52% / 82%);
 }
 
+.subsp__btn:hover {
+    opacity: .85;
+}
+
 .subsp__link {
     text-decoration: none;
     color: white;
