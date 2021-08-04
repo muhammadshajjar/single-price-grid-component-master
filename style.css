@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+:root {
+    /*PRIMARY COLORS */
+    --primary-Cyan: hsl(179, 62%, 43%);
+    --primart-Bright-Yellow: hsl(71, 73%, 54%);
+    /*NEUTRAL COLORS */
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+    /*FONT FAMILY*/
+    --font-karla: 'Karla', sans-serif;
+    /*FONT SIZE*/
+    --fs-400: 400;
+    --fs-700: 700;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--font-karla);
+    background-color: var(--Light-Gray);
+}
+
+.container {
+    max-width: 41rem;
+    width: 83%;
+    margin: 4rem 0;
+    padding: 0;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 0px 8px 20px 4px hsl(180deg 21% 72%);
+}
+
+
+/*---------------------
+Join Coummunity section
+-----------------------*/
+
+.join {
+    padding: 2rem 1.65rem;
+    background-color: white;
+}
+
+.join__head {
+    font-size: 1.5rem;
+    color: var(--primary-Cyan);
+    margin-bottom: 1.5rem;
+}
+
+.join__sub-head {
+    font-size: 1.12rem;
+    color: var(--primart-Bright-Yellow);
+    margin-bottom: 1.1rem;
+    font-weight: var(--fs-700);
+}
+
+.join__disc {
+    font-size: 0.87rem;
+    line-height: 1.7;
+    color: var(--Grayish-Blue);
+}
+
+
+/*---------------------
+Subscription section
+-----------------------*/
+
+.subsp {
+    padding: 1.6rem 1.65rem;
+    background-color: var(--primary-Cyan);
+    color: white;
+}
+
+.subsp-price__container {
+    display: flex;
+    align-items: center;
+}
+
+.subsp__head {
+    font-size: 1.18rem;
+    margin-bottom: 1.2rem;
+}
+
+.subsp__price {
+    font-size: 2.03rem;
+    font-weight: var(--fs-700);
+    margin-right: 0.75rem;
+}
+
+.subsp__disc {
+    margin: 0.62rem 0 2.06rem 0;
+    font-size: 1rem;
+    opacity: .82;
+}
+
+.subsp__duration {
+    font-size: 0.93rem;
+    opacity: .5;
+}
+
+.subsp__btn {
+    width: 100%;
+    max-width: 25rem;
+    padding: 1em;
+    text-align: center;
+    background-color: var(--primart-Bright-Yellow);
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0px 8px 20px 4px hsl(180deg 20% 52% / 82%);
+}
+
+.subsp__link {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+
+/*---------------------
+Why Us section
+-----------------------*/
+
+.why-us {
+    padding: 1.6rem 1.65rem;
+    background-color: var(--Grayish-Blue);
+    background-color: #26bab8;
+    color: white;
+}
+
+.why-us__head {
+    font-size: 1.18rem;
+    margin-bottom: 1.2rem;
+}
+
+.why-us__list {
+    list-style-type: none;
+}
+
+.why-us__list-items {
+    font-size: 0.93rem;
+    margin-bottom: 0.25rem;
+    opacity: .8;
+}
+
+
+/*---------------------
+Attribution section
+-----------------------*/
+
+.attribution {
+    font-size: 0.86rem;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width:670px) {
+    .container {
+        margin: 8.5rem 0;
+    }
+    .lower__container {
+        display: flex;
+    }
+    .subsp {
+        width: 50%;
+    }
+    .why-us {
+        width: 50%;
+    }
+    .join {
+        padding: 3rem 2.5rem;
+    }
+    .join__disc {
+        font-size: 1rem;
+        max-width: 33.31rem;
+    }
+    .subsp {
+        padding: 3rem 2.5rem;
+    }
+    .why-us {
+        padding: 3rem 2.5rem;
+    }
+}
