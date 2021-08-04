@@ -96,11 +96,11 @@ Subscription section
 
 .subsp__head {
     font-size: 1.18rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.1rem;
 }
 
 .subsp__price {
-    font-size: 2.03rem;
+    font-size: 2.2rem;
     font-weight: var(--fs-700);
     margin-right: 0.75rem;
 }
@@ -112,7 +112,7 @@ Subscription section
 }
 
 .subsp__duration {
-    font-size: 0.93rem;
+    font-size: 1rem;
     opacity: .5;
 }
 
@@ -151,7 +151,7 @@ Why Us section
 
 .why-us__head {
     font-size: 1.18rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.1rem;
 }
 
 .why-us__list {
@@ -180,7 +180,7 @@ Attribution section
 
 @media only screen and (min-width:670px) {
     .container {
-        margin: 8.5rem 0;
+        margin: 8.8rem 0;
     }
     .lower__container {
         display: flex;
@@ -192,16 +192,16 @@ Attribution section
         width: 50%;
     }
     .join {
-        padding: 3rem 2.5rem;
+        padding: 2.8rem 2.7rem;
     }
     .join__disc {
         font-size: 1rem;
         max-width: 33.31rem;
     }
     .subsp {
-        padding: 3rem 2.5rem;
+        padding: 2.4rem 2.7rem;
     }
     .why-us {
-        padding: 3rem 2.5rem;
+        padding: 2.4rem 2.7rem;
     }
 }
